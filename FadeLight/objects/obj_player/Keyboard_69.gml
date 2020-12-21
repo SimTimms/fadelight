@@ -4,5 +4,5 @@
 /// @DnDInput : 2
 /// @DnDArgument : "function" "motion_add"
 /// @DnDArgument : "arg" "image_angle"
-/// @DnDArgument : "arg_1" "-0.2"
-motion_add(image_angle, -0.2);
+/// @DnDArgument : "arg_1" "0.2"
+motion_add(image_angle, 0.2);
