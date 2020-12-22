@@ -1,17 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 49682803
-/// @DnDApplyTo : {obj_message}
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "instvar" "6"
-with(obj_message) {
-visible = 1;
-}
-
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-/// @DnDVersion : 1
-/// @DnDHash : 156CA103
-image_alpha = 1;
+/// @DnDHash : 586D14F1
+/// @DnDArgument : "value" ""Welcome to Earth""
+/// @DnDArgument : "var" "message_str"
+global.message_str = "Welcome to Earth";
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
