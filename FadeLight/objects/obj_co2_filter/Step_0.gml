@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 76E90CD6
 /// @DnDArgument : "output" "cargo_visible"
+/// @DnDArgument : "output_temp" "1"
 /// @DnDArgument : "var" "cargo_visible"
-cargo_visible = global.cargo_visible;
+var cargo_visible = global.cargo_visible;
 
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1

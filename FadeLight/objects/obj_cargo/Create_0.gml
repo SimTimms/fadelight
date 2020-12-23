@@ -21,9 +21,8 @@ visible = cargo_visible;
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 7FC1D0D5
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "xpos" "30"
 /// @DnDArgument : "objectid" "obj_co2_filter"
 /// @DnDArgument : "layer" ""CargoLayer""
 /// @DnDSaveInfo : "objectid" "obj_co2_filter"
-instance_create_layer(x + 0, y + 0, "CargoLayer", obj_co2_filter);
+instance_create_layer(30, 0, "CargoLayer", obj_co2_filter);
