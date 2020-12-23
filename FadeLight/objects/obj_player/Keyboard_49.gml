@@ -29,6 +29,6 @@ if(!(story_mode == "story"))
 	/// @DnDParent : 0774BFBC
 	/// @DnDArgument : "function" "motion_add"
 	/// @DnDArgument : "arg" "image_angle+90"
-	/// @DnDArgument : "arg_1" "0.05"
-	motion_add(image_angle+90, 0.05);
+	/// @DnDArgument : "arg_1" "0.1"
+	motion_add(image_angle+90, 0.1);
 }

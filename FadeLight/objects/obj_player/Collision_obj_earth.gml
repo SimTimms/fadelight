@@ -1,16 +1,31 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
-/// @DnDHash : 7A21CE13
-/// @DnDArgument : "value" ""story""
-/// @DnDArgument : "var" "story_mode"
-global.story_mode = "story";
+/// @DnDHash : 49F55276
+/// @DnDArgument : "output" "earth_story_progress"
+/// @DnDArgument : "var" "earth_story_progress"
+earth_story_progress = global.earth_story_progress;
 
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 586D14F1
-/// @DnDArgument : "value" ""Welcome to Earth""
-/// @DnDArgument : "var" "message_str"
-global.message_str = "Welcome to Earth";
+/// @DnDHash : 01BFD542
+/// @DnDArgument : "var" "earth_story_progress"
+if(earth_story_progress == 0)
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A21CE13
+	/// @DnDInput : 3
+	/// @DnDParent : 01BFD542
+	/// @DnDArgument : "value" ""story""
+	/// @DnDArgument : "value_1" "1"
+	/// @DnDArgument : "value_2" ""earth""
+	/// @DnDArgument : "var" "story_mode"
+	/// @DnDArgument : "var_1" "in_story"
+	/// @DnDArgument : "var_2" "story"
+	global.story_mode = "story";
+	global.in_story = 1;
+	global.story = "earth";
+}
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1

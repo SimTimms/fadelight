@@ -8,14 +8,6 @@
 var l10C53A92_0 = collision_point(x + 0, y + 0, obj_boom, true, 1);
 if((l10C53A92_0))
 {
-	/// @DnDAction : YoYo Games.Common.Get_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 07B076BF
-	/// @DnDParent : 10C53A92
-	/// @DnDArgument : "output" "temp_fuel"
-	/// @DnDArgument : "var" "fuel"
-	temp_fuel = global.fuel;
-
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 722F7B4E
@@ -75,4 +67,32 @@ if(docked == 0)
 	/// @DnDArgument : "arg" "direction"
 	/// @DnDArgument : "arg_1" "0"
 	motion_set(direction, 0);
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 3850E245
+	/// @DnDParent : 6FDB8ADC
+	/// @DnDArgument : "value" ""docked""
+	/// @DnDArgument : "var" "story"
+	global.story = "docked";
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 136E4003
+	/// @DnDInput : 2
+	/// @DnDParent : 6FDB8ADC
+	/// @DnDArgument : "value" ""story""
+	/// @DnDArgument : "value_1" "1"
+	/// @DnDArgument : "var" "story_mode"
+	/// @DnDArgument : "var_1" "in_story"
+	global.story_mode = "story";
+	global.in_story = 1;
+
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 07B076BF
+	/// @DnDParent : 6FDB8ADC
+	/// @DnDArgument : "output" "temp_fuel"
+	/// @DnDArgument : "var" "fuel"
+	temp_fuel = global.fuel;
 }

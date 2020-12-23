@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 5DEC1FB1
+/// @DnDArgument : "var" "earth_story_progress"
+global.earth_story_progress = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 5FCAF2F0
 /// @DnDArgument : "value" ""intro""
 /// @DnDArgument : "var" "story"
@@ -31,9 +37,9 @@ global.action_one = "";
 /// @DnDArgument : "var" "page_rest"
 page_rest = 0;
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 4D880BA7
-/// @DnDArgument : "expr" "1"
+/// @DnDHash : 5A17E7D1
+/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "in_story"
-in_story = 1;
+global.in_story = 1;

@@ -21,6 +21,14 @@ if(page_rest == 0)
 	/// @DnDArgument : "var" "page_rest"
 	page_rest = -1;
 
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 5387229E
+	/// @DnDParent : 5BE193B5
+	/// @DnDArgument : "output" "in_story"
+	/// @DnDArgument : "var" "in_story"
+	in_story = global.in_story;
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2114BF66
