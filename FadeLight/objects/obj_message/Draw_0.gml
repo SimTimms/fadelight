@@ -67,9 +67,9 @@ if(story_mode == "story")
 		/// @DnDVersion : 1
 		/// @DnDHash : 63A8938E
 		/// @DnDParent : 513794BE
-		/// @DnDArgument : "value" ""1. Continue....""
+		/// @DnDArgument : "value" ""Continue....""
 		/// @DnDArgument : "var" "action_one"
-		global.action_one = "1. Continue....";
+		global.action_one = "Continue....";
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -135,9 +135,9 @@ if(story_mode == "story")
 		/// @DnDVersion : 1
 		/// @DnDHash : 4D46440A
 		/// @DnDParent : 4E5F7DCB
-		/// @DnDArgument : "value" ""...you wipe laughter tears from your tired eyes, a red glare catches your attention...""
+		/// @DnDArgument : "value" ""...as you wipe laughter tears from your tired eyes, a red glare catches your attention...""
 		/// @DnDArgument : "var" "message_str"
-		global.message_str = "...you wipe laughter tears from your tired eyes, a red glare catches your attention...";
+		global.message_str = "...as you wipe laughter tears from your tired eyes, a red glare catches your attention...";
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -155,5 +155,20 @@ if(story_mode == "story")
 		/// @DnDArgument : "value" ""...the CO2 filter! You're laughing again as you pull yourself across the cabin to the CO2 filter access panel...""
 		/// @DnDArgument : "var" "message_str"
 		global.message_str = "...the CO2 filter! You're laughing again as you pull yourself across the cabin to the CO2 filter access panel...";
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 35C519F6
+		/// @DnDParent : 408695CF
+		/// @DnDArgument : "value" ""End""
+		/// @DnDArgument : "var" "action_one"
+		global.action_one = "End";
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 25444F11
+		/// @DnDParent : 408695CF
+		/// @DnDArgument : "var" "in_story"
+		in_story = 0;
 	}
 }

@@ -30,3 +30,10 @@ global.action_one = "";
 /// @DnDHash : 53CE2D5C
 /// @DnDArgument : "var" "page_rest"
 page_rest = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4D880BA7
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "in_story"
+in_story = 1;
