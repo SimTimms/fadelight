@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 7A21CE13
+/// @DnDArgument : "value" ""story""
+/// @DnDArgument : "var" "story_mode"
+global.story_mode = "story";
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 586D14F1
 /// @DnDArgument : "value" ""Welcome to Earth""
 /// @DnDArgument : "var" "message_str"
