@@ -5,6 +5,7 @@
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":15,},
     {"id":{"name":"spr_co2_filter","path":"sprites/spr_co2_filter/spr_co2_filter.yy",},"order":4,},
     {"id":{"name":"obj_refuel","path":"objects/obj_refuel/obj_refuel.yy",},"order":1,},
+    {"id":{"name":"obj_co2_filter","path":"objects/obj_co2_filter/obj_co2_filter.yy",},"order":1,},
     {"id":{"name":"spr_fuel_boom","path":"sprites/spr_fuel_boom/spr_fuel_boom.yy",},"order":2,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
     {"id":{"name":"obj_earth","path":"objects/obj_earth/obj_earth.yy",},"order":4,},
